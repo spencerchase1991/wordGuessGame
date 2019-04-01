@@ -1,0 +1,42 @@
+body {
+    background-image: url(https://cdn-images-1.medium.com/max/1600/1*ku_zUJnwa-EkxAJMLFH17Q.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    border: 5px solid black;
+    height: 300px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+    margin-top: 50px;
+    box-shadow: 4px 4px 5px #425D5F;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.container {
+    border: 5px solid black;
+    height: 150px;
+    width: 50%;
+    font-size: 80px;
+    text-align: center;
+    margin: 25px auto;
+    box-shadow: 4px 4px 5px #425D5F;
+}
