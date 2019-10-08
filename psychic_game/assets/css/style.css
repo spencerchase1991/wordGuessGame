@@ -2,18 +2,19 @@ body {
     background-image: url(https://cdn-images-1.medium.com/max/1600/1*ku_zUJnwa-EkxAJMLFH17Q.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    
 }
 
-header {
-    border: 5px solid black;
-    height: 300px;
-    width: 50%;
-    font-size: 20px;
-    text-align: center;
-    margin: 15px auto;
-    margin-top: 50px;
-    box-shadow: 4px 4px 5px #425D5F;
+.jumbotron {
+    margin: 5em 20em 5em 20em;
+  opacity: 0.9;
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+
 }
+
+
 
 h1 {
     font-size: 60px;
@@ -31,12 +32,66 @@ p {
     font-size: 30px;
 }
 
-.container {
-    border: 5px solid black;
-    height: 150px;
-    width: 50%;
-    font-size: 80px;
-    text-align: center;
-    margin: 25px auto;
-    box-shadow: 4px 4px 5px #425D5F;
-}
+ 
+
+  @media only screen and (max-width: 2560px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 2em 20em 0em 20em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 5em;}
+    p.lead {font-size: 2em;}
+    p {font-size: 2em;}
+    .container2 {font-size: 2em;}
+  }
+
+  @media only screen and (max-width: 1440px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+  }
+
+  @media only screen and (max-width: 1024px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 3em;}
+    p.lead {font-size: 1em;}
+    p {font-size: 1.5em;}
+    .container2 {font-size: 2em;}
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 3em;}
+    p.lead {font-size: 1em;}
+    p {font-size: 1.5em;}
+    .container2 {font-size: 2em;}
+  }
+
+  @media only screen and (max-width: 425px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 3em;}
+    p.lead {font-size: 1em;}
+    p {font-size: 1.5em;}
+    .container2 {font-size: 2em;}
+
+  }
+
+  @media only screen and (max-width: 375px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 3em;}
+    p.lead {font-size: 1em;}
+    p {font-size: 1.5em;}
+    .container2 {font-size: 2em;}
+  }
+
+  @media only screen and (max-width: 320px) {
+    body {height: 100vh;}
+    .jumbotron {margin: 3em 2em 1em 2em; opacity: 0.9; text-align: center;}
+    h1.display-4 {font-size: 3em;}
+    p.lead {font-size: 1em;}
+    p {font-size: 1.5em;}
+    .container2 {font-size: 2em;}
+  }
+
+
